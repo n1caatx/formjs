@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#content{
+    background: linear-gradient(rgba(0, 128, 0, 1), rgba(135, 206, 250, 1));
+    height: 90vh;
+    width: 90%;
+    background-size: cover;
+    background-position: center;
+    Box-shadow: 0 40px 80px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.contentbox{
+    height: 60vh;
+    width: 50%;
+    background-color: white;
+    Box-shadow: 0 40px 80px rgba(0, 0, 0, 0.5);
+}
+
+#getintouch{
+    display: flex;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 60px;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input{
+    padding: 3px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    width: 70%;
+    outline: none;
+    font-weight: 600;
+    Box-shadow: 0 40px 80px rgba(0, 0, 0, 0.5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input:focus {
+    border-color: gray;
+}
+
+label{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.subbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+button{
+    background: linear-gradient(rgba(0, 128, 0, 1), rgba(135, 206, 250, 1));
+    border: 1px solid white;
+    padding: 8px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
